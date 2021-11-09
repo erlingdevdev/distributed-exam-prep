@@ -1,9 +1,12 @@
-chapter1: What is this?
-chapter2: What is this?
-chapter3: What is this?
-chapter4: What is this?
-chapter5: What is this?
-chapter6: What is this?
-chapter7: What is this?
-chapter8: What is this?
-chapter9: What is this?
+chapter1: What is a distributed system? (p.2)
+chapter1: What are the two characteristics of a distributed system? (p.2)
+chapter1: What four important goals should be met to make building a distributed system worth the effort? (p.7)
+chapter1: What types of distribution transparency is there? (p.8)
+chapter1: What is middleware in the context of distributed systems?
+chapter1: What is an open distributed system and what can be done to achieve openness?
+chapter1: What is scalability with regards to distributed systems and how can distributed systems be scaled?
+chapter1: What are some pitfalls when designing distributed systems?
+chapter1: What are some types of distributed systems?
+chapter1: What is high performance distributed computing?
+chapter1: What are distributed information systems?
+chapter1: What is a pervasive system?

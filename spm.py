@@ -21,12 +21,10 @@ print(keys)
 import random
 
 print(random.choice(keys))
-
-try:
-    x = input(f"What chapter? {keys}")
-    chosen = random.choice(list(questions[x]))
-except Exception:
-    chosen = random.choice(list(questions.items()))
-
-
-print(chosen)
+x = input(f"What chapter? {keys}")
+while 1:
+    input("go to next")
+    chosen = random.choice(range(len(questions[x])))
+    print(questions[x][chosen])
+    questions[x].pop(chosen)
+    
