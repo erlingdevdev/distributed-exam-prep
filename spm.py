@@ -24,10 +24,10 @@ print(random.choice(keys))
 x = input(f"What chapter? {keys} add + at end of line to do all chapter up to chosen\n")
 
 chosen_questions=[]
+
 if x[-1] == "+":
     x = x[:-1]
     desired = int(x[-1])
-    print(desired)
     temp = [f"chapter{i}" for i in range(1,desired+1)]
     for key in temp:
         for item in questions[key]:
