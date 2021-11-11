@@ -10,3 +10,19 @@ chapter1: What are some types of distributed systems?
 chapter1: What is high performance distributed computing?
 chapter1: What are distributed information systems?
 chapter1: What is a pervasive system?
+chapter2: what is an architectural style and how is it formulated?
+chapter2: what are the three traditional layer views?
+chapter2: What are an wrapper or adapter w.r.t. middleware? And how can these be organized?
+chapter2: What are an interceptor?  Fig 2.14.
+chapter2: Describe an centralized system architecture. p.76
+chapter2: In a client-server architecture, what does it mean that an operation is idempotent?
+chapter2: How can a centralized system architecture be tiered? Give an example for each tier.
+chapter2: Describe decentralized organisations (p2p systems)
+chapter2: what is an structured peer-to-peer system?
+chapter2: Describe an unstructured p2p system.
+chapter2: Describe two ways of searching for specific data in an unstructured p2p system. 
+chapter2: What are policy-based search methods?
+chapter2: What are Hierarchically organized p2p networks? Give an example of such network.
+chapter2: What is an edge-server system?
+chapter2: What is collaborative distributed systems?
+chapter2: Describe NFS (Network File System).

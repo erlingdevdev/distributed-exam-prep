@@ -21,10 +21,23 @@ print(keys)
 import random
 
 print(random.choice(keys))
-x = input(f"What chapter? {keys}")
+x = input(f"What chapter? {keys} add + at end of line to do all chapter up to chosen\n")
+
+chosen_questions=[]
+if x[-1] == "+":
+    x = x[:-1]
+    desired = int(x[-1])
+    print(desired)
+    temp = [f"chapter{i}" for i in range(1,desired+1)]
+    for key in temp:
+        for item in questions[key]:
+            chosen_questions.append(item)
+else:
+    chosen_questions = questions[x]
+
 while 1:
     input("go to next")
-    chosen = random.choice(range(len(questions[x])))
-    print(questions[x][chosen])
-    questions[x].pop(chosen)
+    chosen = random.choice(range(len(chosen_questions)))
+    print(chosen_questions[chosen])
+    chosen_questions.pop(chosen)
     
