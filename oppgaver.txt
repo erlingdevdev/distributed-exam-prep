@@ -41,3 +41,34 @@ chapter2: Explain temporal and referential coupling.
 chapter2: What are the four key characters in RESTful architectures
 chapter2: Many people like RESTful approaches because the interface to a service is so simple. What is the catch about it?
 chapter2: Can you give an example of a traditional three-layered architectural view?
+chapter3: what is virtualization?
+chapter3: explain software Process, Thread and Processor.
+chapter3: explain context switching (w.rt Processor and Thread).
+chapter3: How can a server be constructed?
+chapter3: Give tree different levels of virtualization.
+chapter3: Describe process, native and hosted virtual machines (monitor).
+chapter3: What are privileged and nonpriviliged instrctions. Name the two special instructions.
+chapter3: "for any conventional computer, a vmm may be constructd if the set of sensitive instr. for that computer is a subset of the set of privileged instr.". What is the problem with this and what are some solution?
+chapter3: Distinguish application-level and middleware-level solutions. See figure 3.10 p.124
+chapter3: Discuss benefits and disadvantages with a thin clients architecture for a distributed system
+chapter3: Reasons to migrate code?
+chapter3: Explain Push (code shipping) and Pull (code fetching) protocols in weak mobility
+chapter3: What are the disadvantages and advantages of stateful servers?
+chapter3: Is it possible to interrupt a server once it has accepted (or is in the process of accepting) a service request?
+chapter3: Does connection-oriented communication fit into a stateless design?
+chapter3:Having the first tier, in a three-tiered architecture handle all communication from/to the cluster may lead to a bottleneck. What could be a solution to this?
+chapter3: Migration in heterogeneous systems can cause problems such as the target machine may not be suitable to execute the migrated code. And the definition of process/thread/processor context is highly dependent on local hardware, operating system, and runtime system. There's only one solution to this, what is it? (slides)
+chapter3: X Window System designates a user's terminal as a hosting server, while the application is referred to as the client. Does this make sense? (past exam question)
+chapter3: The X protocol suffers from scalability problems. How can these problems be tackled? 
+chapter4: What are the layers of the OSI-stack and what are the drawbacks of the OSI-model?
+chapter4: 	What is the middleware layer?
+chapter4: 	What types of communication do we have?
+chapter4: 	What is an RPC?
+chapter4: 	What are the basic steps of an RPC operation?
+chapter4: 	What must be done to pass parameters in a RPC call and why must it be done?
+chapter4: 	What is an asynchronous RPC and when is it useful?
+chapter4: 	What is multicast RPC?
+chapter4: How does message-oriented communication differ from RPCs?
+chapter4: What is transient asynchronous communication?
+chapter4: Briefly describe message-oriented persistent communication through message-oriented middle-ware.
+chapter4: Why was the Advanced Message Queuing protocol created?
