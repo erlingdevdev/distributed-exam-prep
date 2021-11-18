@@ -72,3 +72,79 @@ chapter4: How does message-oriented communication differ from RPCs?
 chapter4: What is transient asynchronous communication?
 chapter4: Briefly describe message-oriented persistent communication through message-oriented middle-ware.
 chapter4: Why was the Advanced Message Queuing protocol created?
+chapter5: What is naming used for in distributed systems?
+chapter5: what is an access point?
+chapter5: what does it mean when a name is location independent?
+chapter5: Which properties does an identifier have?
+chapter5: How can flat names be resolved?
+chapter5: Explain DNS, how does this system lookup?
+chapter5: Describe distributed hash table (Chord 😍😝).
+chapter5: How can one solve erratic message transfers? Give three solutions.
+chapter5: What is a hierarchical location scheme? Describe an approach to it.
+chapter5: What are name spaces? 
+chapter5: How can name spaces be distributed?
+chapter5: What are the principles of name resolution (recursive and iterative).
+chapter5: What are Hilbert space-filling curves?
+chapter6: In time synchronization, what are the differences between "The Berkeley Algorithm" and "The Time Network Protocol"?
+chapter6: How can clocks be synchronized over a wireless network? 
+chapter6: How can tokens be used to elect super-peers in peer-to-peer networks?
+chapter6: What is the main principle behind logical clocks (eg. Lamport Clocks)?
+chapter6: Describe a decentralized system for mutual exclusion.
+chapter5: What is an identifier and which properties does it have?
+chapter5: What is a pure name?
+chapter5: What is broadcasting?
+chapter5: What is the Address resolution protocol (ARP)?
+chapter5: What is meant by forwarding pointers?
+chapter5: What are home-based approaches and when are they used?
+chapter5: How can network proximity be exploited to get rid of problems like erratic message transfers?
+chapter5: What is hierarchal location services (HLS)?
+chapter5: How is lookup and insertion done in a HSL tree?
+chapter5: How is scalability in an HLS and what can be done to scale such a system?
+chapter5: What is structured naming?
+chapter5: How do you resolve a name in a given name space?
+chapter5: What is a closure mechanism?
+chapter5: What is name linking and what forms of linking are there?
+chapter5: What is mounting?
+chapter5: How can a distributed name-space be implemented?
+chapter5: What are the two methods of resolving a name and how are they done?
+chapter5: What are some scalability issues in distributed name-spacing and what can be done to counter it?
+chapter5: What is attribute-based naming?
+chapter5: How can attribute-naming systems (directory services) be implemented?
+chapter5: What is LDAP?
+chapter5: What is a distributed index?
+chapter6: How does a computer keep track of time?
+chapter6: What is clock skew?
+chapter6: What is UTC?
+chapter6: What is the goal of clock synchronization and what types of synchronization do we have?
+chapter6: What is clock drift?
+chapter6: How can the network time protocol (NTP) be used to adjust time between two machines?
+chapter6: How can the Berkeley algorithm be used to keep track of time without UTC?
+chapter6: What is the reference broadcast system (RBS)?
+chapter6: What is a happened-before relationship?
+chapter6: What is a logical clock?
+chapter6: Where should the logical clocks be implemented?
+chapter6: How can Lamport’s logical clocks be used for mutual exclusion?
+chapter6: What is a vector clock?
+chapter6: How can causally ordered multicasting be done?
+chapter6: What is mutual exclusion in a distributed system?
+chapter6: What are two basic mutual exclusion techniques in distributed systems?
+chapter6: How can permission-based schemes be implemented?
+chapter6: What is Ricart’s and Agrawala’s distributed algorithm for mutual exclusion?
+chapter6: How does the ring token algorithm for mutual exclusion work?
+chapter6: How can a decentralized mutual exclusion algorithm be implemented?
+chapter6: What isan election algorithm and what assumptions need to be made in an election algorithm?
+chapter6: How does the bully algorithm work?
+chapter6: How can election be done on a ring structure?
+chapter6: What is the goal of election in wireless environments and how can election be done in such environments?
+chapter6: What are locations system?
+chapter6: How can position be calculated?
+chapter6: How can Global positioning system (GPS) be used to find the position of a node?
+chapter6: When cannot GPS be used to find a position and what alternatives do we have?
+chapter6: How is positioning done in a centralized system?
+chapter6: How can positioning be done in a decentralized system?
+chapter6: What is event matching?
+chapter6: How can event matching be done in a centralized manner?
+chapter6: How can brokers route notifications to the appropriate set of subscribers?
+chapter6: What is gossip-based coordination?
+chapter6: What is aggregation?
+chapter6: What is a peer-sampling service (PSS)? 
