@@ -183,3 +183,14 @@ chapter8: What is message logging?
 chapter8: What is a distributed snapshot?
 chapter8: What is Independent checkpointing?
 chapter8: What is an orphan process?
+chapter9: How can one control access to an object? Describe the general model, as well as some approaches of implementing a reference monitor.
+chapter9: what are some approaches to protect against malicious code?
+chapter9: the use of ACL or cryptography is fine when working with communicating parties which has the same rules. How can one protect resources wher communication is not just done in a isolated network?
+chapter9: What are the three issues we need to worry about when a client retrieves an object based on some name? and how can secure naming be solved?  
+chapter9: Describe the three main focus levels in computer security design.
+chapter9: What is a systems trusted computing base?
+chapter9: Describe how a public-key cryptosystem can be used to ensure confidential group communication.
+chapter9: Why are session keys used?
+chapter9: What is Kerberos and how does it work?
+chapter9: How do firewalls work and what are the two main "levels" of a firewall?
+chapter9: What is a DDoS attack and how can it be prevented?
