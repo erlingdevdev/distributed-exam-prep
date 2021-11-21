@@ -79,7 +79,6 @@ chapter5: Which properties does an identifier have?
 chapter5: How can flat names be resolved?
 chapter5: Explain DNS, how does this system lookup?
 chapter5: Describe distributed hash table (Chord 😍😝).
-chapter5: How can one solve erratic message transfers? Give three solutions.
 chapter5: What is a hierarchical location scheme? Describe an approach to it.
 chapter5: What are name spaces? 
 chapter5: How can name spaces be distributed?
@@ -130,7 +129,6 @@ chapter6: What is mutual exclusion in a distributed system?
 chapter6: What are two basic mutual exclusion techniques in distributed systems?
 chapter6: How can permission-based schemes be implemented?
 chapter6: What is Ricart’s and Agrawala’s distributed algorithm for mutual exclusion?
-chapter6: How does the ring token algorithm for mutual exclusion work?
 chapter6: How can a decentralized mutual exclusion algorithm be implemented?
 chapter6: What isan election algorithm and what assumptions need to be made in an election algorithm?
 chapter6: How does the bully algorithm work?
@@ -148,3 +146,40 @@ chapter6: How can brokers route notifications to the appropriate set of subscrib
 chapter6: What is gossip-based coordination?
 chapter6: What is aggregation?
 chapter6: What is a peer-sampling service (PSS)? 
+chapter7: What are the reasons for replication in distributed systems?
+chapter7: What is a consistency unit and what is it used for?
+chapter7: What is the connection between sequential consistency and logical clocks?
+chapter7: Describe the underlying principle of causal consistency.
+chapter7: What are the differences between "Monotonic read/write" consistency and "Read your writes" consistency?    
+chapter7: What does replica placement involve?
+chapter7: What are the three main ways of doing content replication?
+chapter7: What are the three ways content can be propagated to replica servers?
+chapter7: What is the difference between a push-based and a pull-based data transfer scheme?
+chapter7: What is a lease and how can lease expiration time be decided?
+chapter7: When should multicasting and unicasting be used with regards to push and pull protocols?
+chapter7: What is a consistency protocol?
+chapter7: How can the three ranges of continuous consistency be implemented?
+chapter7: What are primary based consistency protocols?
+chapter7: What kind of primary based consistency protocols do we have?
+chapter7: What is replicated-write protocols?
+chapter7: How can client-centric consistency be implemented?
+chapter8: Being Fault tolerant are related to being a dependable system. What does Dependability mean in this context? Give the four properties of Dependability. 
+chapter8: Fail, error and fault is three ways a system can lead to failure. Describe these properties.
+chapter8: Which types of failures can a system have? 
+chapter8: How can a fault toleraant system hide the occurence of failures from other processes using redundancy? 
+chapter8: How can resilience be done using process groups? Describe process groups, and their internal structure.
+chapter8: Process resilience  with grouping needs to be managed in some way. Give how the management protocols can be implemented.
+chapter8: Process grouping is a part of the solution for building fail-tolerant. How should process in these groups be replicated?
+chapter8: What is meant when a system is k-fault tolerant?
+chapter8: What is meant by reaching consensus in a fail-tolerant system? Describe approaches to reach consensus.
+chapter8: How can a system detect failures? 
+chapter8: What are the five diferent classes of failures that can occur in rpc systems, and how can these be solved?
+chapter8: What is reliable group communication?
+chapter8: What is a distributed commit? Mention the three protocols in distributed commit.
+chapter8: Explain the protocols, one-phase commit protocol, two-phase commit protocol and three-phase commit protocol.
+chapter8: What is forward error recovery?
+chapter8: What is backward error recovery?
+chapter8: What is message logging?
+chapter8: What is a distributed snapshot?
+chapter8: What is Independent checkpointing?
+chapter8: What is an orphan process?
