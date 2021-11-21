@@ -34,6 +34,7 @@ if x[-1] == "+":
         for item in questions[key]:
             chosen_questions.append(item)
 else:
+    x = f"chapter{x}"
     chosen_questions = questions[x]
 
 while 1:
